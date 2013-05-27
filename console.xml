@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <settings>
-	<console change_refresh="10" refresh="100" rows="25" columns="80" buffer_rows="500" buffer_columns="0" shell="C:\cygwin\bin\zsh.exe --login -i -c &quot;cd ~;exec /bin/zsh&quot;" init_dir="C:\cygwin\bin" start_hidden="0" save_size="0">
+	<console change_refresh="10" refresh="100" rows="18" columns="91" buffer_rows="500" buffer_columns="0" shell="C:\cygwin\bin\zsh.exe --login -i -c &quot;cd ~;exec /bin/zsh&quot;" init_dir="C:\cygwin\bin" start_hidden="0" save_size="1">
 		<colors>
 			<color id="0" r="7" g="54" b="66"/>
 			<color id="1" r="38" g="139" b="210"/>
@@ -25,7 +25,7 @@
 			<color use="0" r="0" g="0" b="0"/>
 		</font>
 		<window title="Console" icon="" use_tab_icon="1" use_console_title="0" show_cmd="1" show_cmd_tabs="0" use_tab_title="1" trim_tab_titles="20" trim_tab_titles_right="0"/>
-		<controls show_menu="0" show_toolbar="0" show_statusbar="0" show_tabs="1" hide_single_tab="1" show_scrollbars="1" flat_scrollbars="1" tabs_on_bottom="0"/>
+		<controls show_menu="0" show_toolbar="0" show_statusbar="0" show_tabs="1" hide_single_tab="1" show_scrollbars="0" flat_scrollbars="0" tabs_on_bottom="0"/>
 		<styles caption="1" resizable="1" taskbar_button="1" border="1" inside_border="2" tray_icon="1">
 			<selection_color r="255" g="255" b="255"/>
 		</styles>
@@ -82,16 +82,16 @@
 	</hotkeys>
 	<mouse>
 		<actions>
-			<action ctrl="0" shift="0" alt="0" button="1" name="copy"/>
-			<action ctrl="0" shift="1" alt="0" button="1" name="select"/>
+			<action ctrl="0" shift="1" alt="0" button="1" name="copy"/>
+			<action ctrl="0" shift="0" alt="0" button="1" name="select"/>
 			<action ctrl="0" shift="0" alt="0" button="3" name="paste"/>
 			<action ctrl="1" shift="0" alt="0" button="1" name="drag"/>
 			<action ctrl="0" shift="0" alt="0" button="2" name="menu"/>
 		</actions>
 	</mouse>
 	<tabs>
-		<tab title="command" use_default_icon="0">
-			<console shell="C:\Windows\System32\cmd.exe" init_dir="D:\" run_as_user="0" user=""/>
+		<tab title="cygwin" use_default_icon="0">
+			<console shell="C:\cygwin\bin\zsh.exe --login -i -c &quot;cd ~;exec /bin/zsh&quot;" init_dir="C:\cygwin\bin" run_as_user="0" user=""/>
 			<cursor style="0" r="255" g="255" b="255"/>
 			<background type="0" r="0" g="0" b="0">
 				<image file="" relative="0" extend="0" position="0">
@@ -99,8 +99,8 @@
 				</image>
 			</background>
 		</tab>
-		<tab title="cygwin" use_default_icon="0">
-			<console shell="C:\cygwin\bin\zsh.exe --login -i -c &quot;cd ~;exec /bin/zsh&quot;" init_dir="C:\cygwin\bin" run_as_user="0" user=""/>
+		<tab title="command" use_default_icon="0">
+			<console shell="C:\Windows\System32\cmd.exe" init_dir="D:\" run_as_user="0" user=""/>
 			<cursor style="0" r="255" g="255" b="255"/>
 			<background type="0" r="0" g="0" b="0">
 				<image file="" relative="0" extend="0" position="0">
